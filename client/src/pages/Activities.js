@@ -25,7 +25,7 @@ const activities = [
     id: 1,
     name: 'Water Sports',
     description: 'Exciting aquatic adventures for all ages',
-    image: 'images/activities/activity-1.jpg',
+    image: '/images/activities/activity-1.jpg',
     features: [
       'Jet skiing',
       'Water skiing',
@@ -41,7 +41,7 @@ const activities = [
     id: 2,
     name: 'Land Activities',
     description: 'Fun and fitness on solid ground',
-    image: 'images/activities/activity-2.jpg',
+    image: '/images/activities/activity-2.jpg',
     features: [
       'Tennis courts',
       'Cycling trails',
@@ -57,7 +57,7 @@ const activities = [
     id: 3,
     name: 'Kids Club',
     description: 'Entertainment for our youngest guests',
-    image: 'images/activities/activity-3.jpg',
+    image: '/images/activities/activity-3.jpg',
     features: [
       'Supervised activities',
       'Arts and crafts',

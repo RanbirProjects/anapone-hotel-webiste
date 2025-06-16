@@ -25,7 +25,7 @@ const spaServices = [
     id: 1,
     name: 'Luxury Massage',
     description: 'Rejuvenating treatments for body and soul',
-    image: 'images/spa/spa-1.jpg',
+    image: '/images/spa/spa-1.jpg',
     features: [
       'Swedish massage',
       'Deep tissue massage',
@@ -41,7 +41,7 @@ const spaServices = [
     id: 2,
     name: 'Wellness Pool',
     description: 'Relax in our therapeutic water features',
-    image: 'images/spa/spa-2.jpg',
+    image: '/images/spa/spa-2.jpg',
     features: [
       'Hydrotherapy pool',
       'Water massage jets',
@@ -57,7 +57,7 @@ const spaServices = [
     id: 3,
     name: 'Beauty Treatments',
     description: 'Enhance your natural beauty',
-    image: 'images/spa/spa-3.jpg',
+    image: '/images/spa/spa-3.jpg',
     features: [
       'Facial treatments',
       'Body wraps',

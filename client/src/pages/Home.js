@@ -22,7 +22,7 @@ const Home = () => {
         sx={{
           height: '100vh',
           position: 'relative',
-          backgroundImage: 'url(/images/welcome/hero-bg.jpg)',
+          backgroundImage: 'url(images/welcome/hero-bg.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           '&::before': {
@@ -33,7 +33,7 @@ const Home = () => {
             right: 0,
             bottom: 0,
             backgroundColor: 'rgba(0, 0, 0, 0.5)',
-            backgroundImage: 'url(/images/welcome/overlay.jpg)',
+            backgroundImage: 'url(images/welcome/overlay.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             opacity: 0.3,

@@ -62,7 +62,7 @@ const Contact = () => {
         minHeight: '100vh',
         pt: { xs: 8, md: 12 },
         pb: { xs: 8, md: 12 },
-        backgroundImage: 'url(/images/contact/contact-bg.jpg)',
+        backgroundImage: 'url(images/contact/contact-bg.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',

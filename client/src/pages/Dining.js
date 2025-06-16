@@ -25,7 +25,7 @@ const restaurants = [
     id: 1,
     name: 'The Grand Restaurant',
     description: 'Fine dining with panoramic ocean views',
-    image: 'images/dining/restaurant-1.jpg',
+    image: '/images/dining/restaurant-1.jpg',
     features: [
       'International cuisine',
       'Ocean view seating',
@@ -41,7 +41,7 @@ const restaurants = [
     id: 2,
     name: 'The Beach Club',
     description: 'Casual beachfront dining experience',
-    image: 'images/dining/restaurant-2.jpg',
+    image: '/images/dining/restaurant-2.jpg',
     features: [
       'Fresh seafood',
       'Beachfront seating',
@@ -57,7 +57,7 @@ const restaurants = [
     id: 3,
     name: 'The Garden Café',
     description: 'Al fresco dining in tropical gardens',
-    image: 'images/dining/restaurant-3.jpg',
+    image: '/images/dining/restaurant-3.jpg',
     features: [
       'Light cuisine',
       'Garden seating',

@@ -25,7 +25,7 @@ const rooms = [
     name: 'Deluxe Room',
     description: 'Elegant comfort with modern amenities',
     price: 200,
-    image: 'images/rooms/deluxe-room.jpg',
+    image: '/images/rooms/deluxe-room.jpg',
     features: [
       'King-size bed',
       'Private balcony',
@@ -42,7 +42,7 @@ const rooms = [
     name: 'Executive Suite',
     description: 'Spacious luxury with separate living area',
     price: 350,
-    image: 'images/rooms/executive-suite.jpg',
+    image: '/images/rooms/executive-suite.jpg',
     features: [
       'King-size bed',
       'Separate living room',
@@ -59,7 +59,7 @@ const rooms = [
     name: 'Presidential Suite',
     description: 'Ultimate luxury with panoramic views',
     price: 500,
-    image: 'images/rooms/presidential-suite.jpg',
+    image: '/images/rooms/presidential-suite.jpg',
     features: [
       'King-size bed',
       'Private pool',

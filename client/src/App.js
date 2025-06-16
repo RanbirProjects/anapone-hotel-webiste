@@ -89,7 +89,7 @@ const theme = createTheme({
 const globalStyles = {
   body: {
     backgroundColor: '#000000',
-    backgroundImage: 'url(/images/background.jpg)',
+    backgroundImage: 'url(images/background.jpg)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundAttachment: 'fixed',
