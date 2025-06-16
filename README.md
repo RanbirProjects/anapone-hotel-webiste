@@ -1,4 +1,4 @@
-![2E184A63-446A-4F88-8AE9-8A58B13F6E96](https://github.com/user-attachments/assets/bda1928d-894f-4bd0-b5ae-00af85b19e7c)Anapnoe Resort Website
+Anapnoe Resort Website
 
 A luxury resort website built with the MERN stack (MongoDB, Express.js, React.js, Node.js) featuring a modern, elegant design inspired by high-end hospitality websites.
 Welocme page
