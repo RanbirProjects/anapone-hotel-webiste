@@ -1,1 +1,11 @@
-/* /index.html 200 
+# Redirect all requests to index.html
+/*    /index.html   200
+
+# Handle specific routes
+/about    /index.html   200
+/contact    /index.html   200
+/rooms    /index.html   200
+/dining    /index.html   200
+/spa    /index.html   200
+/activities    /index.html   200
+/gallery    /index.html   200 
