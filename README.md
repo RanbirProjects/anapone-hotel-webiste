@@ -1,113 +1,266 @@
-Anapnoe Resort Website
+# 🏝️ Anapnoe Resort Website
 
-A luxury resort website built with the MERN stack (MongoDB, Express.js, React.js, Node.js) featuring a modern, elegant design inspired by high-end hospitality websites.
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=700&lines=Luxury+Resort+Website;MERN+Stack+Hospitality+Platform;Modern+Booking+System;React+Node+MongoDB" />
+</p>
 
-Welocme page
-![2E184A63-446A-4F88-8AE9-8A58B13F6E96](https://github.com/user-attachments/assets/5fc761ff-ad8d-42be-bbaf-004e6eb117c3)
-Rooms
-![3A8B9CD3-EB5A-41E4-B86C-6D0699EEB469](https://github.com/user-attachments/assets/ca877770-f6f6-4c53-bd99-eb3b5511bdd4)
-Spa
-![72F3FDE3-0406-465C-9A5A-6B02D020C529](https://github.com/user-attachments/assets/e975dc81-55ff-4889-b6e7-5309ec2857d5)
-Activities and entertainment
-![28A7215E-1C62-4D5B-8990-52B795BD4B04](https://github.com/user-attachments/assets/ef42beef-4791-4c7b-9ab9-692cbe0de524)
-Gallery
-![372E6C35-E329-4A94-8651-A71D5FD1B629](https://github.com/user-attachments/assets/d1f980ee-f293-4fd5-ab3b-b05a2092627c)
-Contact
-![C8F00E43-66F9-41E0-B9BC-36BA72EADB70](https://github.com/user-attachments/assets/b168990f-dd97-410d-90ce-cf71f71e00b9)
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=RanbirProjects&label=Repository%20Views&color=blue&style=for-the-badge" />
+</p>
 
-Features
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css,git,github,vscode" />
+</p>
 
-- Full-screen video header with dictionary-inspired copy
-- Responsive design with seamless transitions
-- Modern UI with Material-UI components
-- Interactive room booking system
-- Contact form with real-time validation
-- Admin dashboard for managing bookings and content
+---
 
-Tech Stack
+# 🚀 Project Overview
 
-- Frontend:
-  - React.js
-  - Material-UI
-  - Framer Motion for animations
-  - React Router for navigation
-  - Axios for API calls
+**Anapnoe Resort Website** is a luxury hospitality platform built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.
 
--Backend:
-  - Node.js
-  - Express.js
-  - MongoDB with Mongoose
-  - JWT for authentication
-  - Multer for file uploads
+The website provides a modern and elegant interface inspired by high-end resort websites where users can explore rooms, spa services, entertainment activities, and make bookings seamlessly.
 
- Getting Started
+It includes a fully responsive design, interactive booking system, and an admin dashboard to manage resort content and reservations.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/anapnoe-resort.git
-   cd anapnoe-resort
-   ```
+---
 
-2. Install dependencies:
-   ```bash
-   # Install server dependencies
-   npm install
+# 🧠 Project Architecture
 
-   # Install client dependencies
-   cd client
-   npm install
-   ```
+```mermaid
+flowchart LR
 
-3. Create a `.env` file in the root directory:
-   ```
-   MONGODB_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
-   PORT=5000
-   ```
+User[User Browser] --> React[React Frontend]
 
-4. Start the development server:
-   ```bash
-   # Run both frontend and backend
-   npm run dev
+React --> API[Node.js / Express Server]
 
-   # Run backend only
-   npm run server
+API --> DB[(MongoDB Database)]
+API --> Auth[JWT Authentication]
 
-   # Run frontend only
-   npm run client
-   ```
+DB --> API
+Auth --> API
 
-Project Structure
+API --> React
+React --> User
+```
+
+---
+
+# ✨ Features
+
+- 🏨 Luxury resort style website design  
+- 🎥 Full-screen video header  
+- 📱 Fully responsive modern UI  
+- 🛏️ Interactive room booking system  
+- 🧘 Spa and wellness services pages  
+- 🎭 Activities and entertainment section  
+- 📸 Gallery showcase  
+- 📩 Contact form with real-time validation  
+- 🛠️ Admin dashboard for managing bookings and content  
+
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Welcome Page
+
+<img src="https://github.com/user-attachments/assets/5fc761ff-ad8d-42be-bbaf-004e6eb117c3" width="900"/>
+
+---
+
+## 🛏️ Rooms
+
+<img src="https://github.com/user-attachments/assets/ca877770-f6f6-4c53-bd99-eb3b5511bdd4" width="900"/>
+
+---
+
+## 🧘 Spa
+
+<img src="https://github.com/user-attachments/assets/e975dc81-55ff-4889-b6e7-5309ec2857d5" width="900"/>
+
+---
+
+## 🎭 Activities and Entertainment
+
+<img src="https://github.com/user-attachments/assets/ef42beef-4791-4c7b-9ab9-692cbe0de524" width="900"/>
+
+---
+
+## 📸 Gallery
+
+<img src="https://github.com/user-attachments/assets/d1f980ee-f293-4fd5-ab3b-b05a2092627c" width="900"/>
+
+---
+
+## 📩 Contact Page
+
+<img src="https://github.com/user-attachments/assets/b168990f-dd97-410d-90ce-cf71f71e00b9" width="900"/>
+
+---
+
+# 🏗️ Tech Stack
+
+### Frontend
+- React.js  
+- Material UI  
+- Framer Motion (Animations)  
+- React Router  
+- Axios  
+
+### Backend
+- Node.js  
+- Express.js  
+- MongoDB with Mongoose  
+- JWT Authentication  
+- Multer (File Uploads)  
+
+---
+
+# 📂 Project Structure
 
 ```
 anapnoe-resort/
-├── client/                 # React frontend
-│   ├── public/            # Static files
-│   └── src/               # Source files
-│       ├── components/    # Reusable components
-│       ├── pages/         # Page components
-│       ├── context/       # React context
-│       └── utils/         # Utility functions
-├── models/                # MongoDB models
-├── routes/                # API routes
-├── middleware/            # Custom middleware
-├── config/               # Configuration files
-└── server.js             # Entry point
+│
+├── client
+│   ├── public
+│   └── src
+│       ├── components
+│       ├── pages
+│       ├── context
+│       └── utils
+│
+├── models
+├── routes
+├── middleware
+├── config
+└── server.js
 ```
 
- Contributing
+---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+# ⚙️ Installation & Setup
 
- License
+## 1️⃣ Clone the Repository
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
- Acknowledgments
+```bash
+git clone https://github.com/yourusername/anapnoe-resort.git
+cd anapnoe-resort
+```
 
-- Design inspiration from luxury resort websites
-- Material-UI for the component library
-- Framer Motion for smooth animations 
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
+npm install
+
+cd client
+npm install
+```
+
+---
+
+## 3️⃣ Create `.env` File
+
+```
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
+
+---
+
+## 4️⃣ Run the Application
+
+```bash
+npm run dev
+```
+
+Run backend only
+
+```bash
+npm run server
+```
+
+Run frontend only
+
+```bash
+npm run client
+```
+
+---
+
+# 🚀 Deployment
+
+## Backend Deployment (Render / Heroku)
+
+```bash
+heroku login
+heroku create your-app-name
+git push heroku main
+```
+
+Set environment variables:
+
+```
+MONGODB_URI
+JWT_SECRET
+```
+
+---
+
+## Frontend Deployment
+
+Build command:
+
+```
+cd client && npm run build
+```
+
+Publish directory:
+
+```
+client/build
+```
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create a feature branch  
+3. Commit your changes  
+4. Push to GitHub  
+5. Open a Pull Request  
+
+---
+
+# 👨‍💻 Author
+
+**Ranbir Singh**
+
+💼 MERN Stack Developer  
+📍 Bangalore, India  
+
+📧 ranbirsingh9156@gmail.com  
+
+🔗 GitHub  
+https://github.com/RanbirProjects  
+
+🔗 LinkedIn  
+https://linkedin.com/in/ranbirsingh14  
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 🙏 Acknowledgments
+
+- Design inspiration from luxury resort websites  
+- Material UI component library  
+- Framer Motion for smooth animations  
