@@ -26,24 +26,29 @@ It includes a fully responsive design, interactive booking system, and an admin 
 
 # 🧠 Project Architecture
 
-```mermaid
-flowchart LR
-
-User[User Browser] --> React[React Frontend]
-
-React --> API[Node.js / Express Server]
-
-API --> DB[(MongoDB Database)]
-API --> Auth[JWT Authentication]
-
-DB --> API
-Auth --> API
-
-API --> React
-React --> User
 ```
-
----
+        ┌───────────────┐
+        │   User Browser │
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │ React Frontend │
+        │   (Client)     │
+        └───────┬───────┘
+                │ API Requests
+                ▼
+        ┌───────────────┐
+        │ Node.js /     │
+        │ Express Server│
+        └───────┬───────┘
+            ┌───┴───────┐
+            ▼           ▼
+   ┌──────────────┐  ┌──────────────┐
+   │  OpenAI API  │  │   MongoDB    │
+   │ Recipe Logic │  │   Database   │
+   └──────────────┘  └──────────────┘
+```
 
 # ✨ Features
 
